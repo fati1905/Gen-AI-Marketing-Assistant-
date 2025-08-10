@@ -1,5 +1,5 @@
 # GenAI Marketing Insight Assistant
-
+Please remember that this project is still ongoing so a few elements are still missing!!
 Un mini-projet de démonstration qui combine Data Science, LLM et MLOps pour analyser des données marketing, prédire la réponse des clients à une campagne, et interagir en langage naturel avec un assistant IA.
 
 ## Fonctionnalités
