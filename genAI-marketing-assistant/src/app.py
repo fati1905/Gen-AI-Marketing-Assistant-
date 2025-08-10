@@ -1,18 +1,18 @@
+# This file contains the streamlit application for a GenAI Marketing Assisant
+# Please remember to fill in all the required elements
+
 import pandas as pd
-from langchain_experimental.agents import create_pandas_dataframe_agent
-#from langchain.chat_models import ChatOpenAI
+from langchain_experimental.agents import create_pandas_dataframe_agent*
 from langchain_community.chat_models import ChatOpenAI
 import streamlit as st
 import os
 
-#os.environ['SSL_CERT_FILE'] = '/path/to/anaconda3/ssl/certs/ca-certificates.crt'
 
+# ------ Load your dataset ---------
+df = pd.read_csv(r'path to your data') # Inset the link to your own data
 
-# Load your dataset
-df = pd.read_csv(r'C:\Users\Fatima\OneDrive\Desktop\genAI-marketing-assistant\genAI-marketing-assistant\Data\data_cleaned.csv')
-
-# Initialize the Chat LLM
-os.environ['OPENAI_API_KEY']='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'
+# ------- Initialize the Chat LLM ---------
+os.environ['OPENAI_API_KEY']='Your Own Key' # Insert your own key from OpenAI
 llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
 
 # Create the Pandas Agent from experimental module
