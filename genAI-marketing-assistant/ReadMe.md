@@ -1,17 +1,25 @@
 # GenAI Marketing Insight Assistant
 Please remember that this project is still ongoing so a few elements are still missing!!
 
-Un mini-projet de démonstration qui combine Data Science, LLM et MLOps pour analyser des données marketing, prédire la réponse des clients à une campagne, et interagir en langage naturel avec un assistant IA.
+A demonstration mini-project that combines Data Science, LLM, and MLOps to analyze marketing data, predict customer responses to a campaign, and interact in natural language with an AI assistant.
 
-## Fonctionnalités
-- **Data Cleaning & EDA** : préparation et analyse du dataset marketing
-- **Modèle ML** : prédiction de la probabilité de réponse à une campagne
-- **GenAI Q&A** : interrogation des données avec un LLM
-- **Dashboard Streamlit** : visualisation des KPIs
-- **Docker** : prêt pour déploiement
+## Data 
+The data is extracted from Kaggle : https://www.kaggle.com/datasets/henriqueyamahata/bank-marketing
 
-## Installation
-```bash
-git clone https://github.com/---/genai-marketing-assistant.git
-cd genai-marketing-assistant
-pip install -r requirements.txt
+The dataset is a CSV file that constitutes the information of a Portuguese banking instituation. It contains information of contacted clients for fixed term deposit subscription compain.
+
+The Data folder is empty since the dataset is large. Do not hestiate to run the notebook inside the folder and then download the clean version of the dataset.
+
+
+## Features
+- **Data Cleaning & EDA:** preparation and analysis of the marketing dataset
+
+- **ML Model:** prediction of the probability of response to a campaign
+
+- **GenAI Q&A:** querying the data with an LLM
+
+- **Streamlit Dashboard:** visualization of KPIs
+
+- **Docker:** ready for deployment
+
+
